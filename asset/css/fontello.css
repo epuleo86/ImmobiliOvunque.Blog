@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?19597103');
+  src: url('../font/fontello.eot?19597103#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?19597103') format('woff2'),
+       url('../font/fontello.woff?19597103') format('woff'),
+       url('../font/fontello.ttf?19597103') format('truetype'),
+       url('../font/fontello.svg?19597103#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?19597103#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-up-open:before { content: '\e800'; } /* '' */
+.icon-down-open:before { content: '\e801'; } /* '' */
+.icon-cancel:before { content: '\e802'; } /* '' */
+.icon-ok:before { content: '\e803'; } /* '' */
+.icon-elenco-rounded:before { content: '\e804'; } /* '' */
+.icon-envelope:before { content: '\e805'; } /* '' */
+.icon-facebook-like:before { content: '\e806'; } /* '' */
+.icon-filter:before { content: '\e807'; } /* '' */
+.icon-buildings:before { content: '\e808'; } /* '' */
+.icon-calcolatrice:before { content: '\e809'; } /* '' */
+.icon-calcolatrice-rounded:before { content: '\e80a'; } /* '' */
+.icon-elenco:before { content: '\e80b'; } /* '' */
+.icon-gallery:before { content: '\e80c'; } /* '' */
+.icon-instagram:before { content: '\e80d'; } /* '' */
+.icon-linkedin:before { content: '\e80e'; } /* '' */
+.icon-map-pin:before { content: '\e80f'; } /* '' */
+.icon-puzzle-piece:before { content: '\e810'; } /* '' */
+.icon-share:before { content: '\e811'; } /* '' */
+.icon-star-fill:before { content: '\e812'; } /* '' */
+.icon-star-line:before { content: '\e813'; } /* '' */
+.icon-telefono:before { content: '\e814'; } /* '' */
+.icon-three-stars:before { content: '\e815'; } /* '' */
+.icon-videocam:before { content: '\e816'; } /* '' */
+.icon-left-big:before { content: '\e817'; } /* '' */
+.icon-right-big:before { content: '\e818'; } /* '' */
+.icon-right-open:before { content: '\e819'; } /* '' */
+.icon-left-open:before { content: '\e81a'; } /* '' */
+.icon-down-big:before { content: '\e81b'; } /* '' */
+.icon-up-big:before { content: '\e81c'; } /* '' */
+.icon-bubbles-speech:before { content: '\e81d'; } /* '' */
+.icon-whatsapp-round:before { content: '\e81e'; } /* '' */
+.icon-twitter-round:before { content: '\e81f'; } /* '' */
+.icon-facebook-round:before { content: '\e820'; } /* '' */
+.icon-ordina:before { content: '\e821'; } /* '' */
+.icon-pin:before { content: '\e822'; } /* '' */
+.icon-pin-rounded:before { content: '\e823'; } /* '' */
+.icon-print:before { content: '\e824'; } /* '' */
+.icon-fullscreen:before { content: '\e825'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-down:before { content: '\f175'; } /* '' */
+.icon-up:before { content: '\f176'; } /* '' */
+.icon-left:before { content: '\f177'; } /* '' */
+.icon-right:before { content: '\f178'; } /* '' */
