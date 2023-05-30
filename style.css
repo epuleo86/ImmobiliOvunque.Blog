@@ -76,7 +76,7 @@ body, html {
 
 h2, h3, h4 {
     font-family: 'Futura PT Book';
-    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .normal-case {
@@ -93,7 +93,6 @@ h2 {
 
 h3 {
     font-size: 18px;
-    text-transform: uppercase;
 }
 
 .smaller-text {

@@ -45,17 +45,14 @@
 										Categorie
 									</a>
 									<div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item <?php echo (is_category(2766) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/affitti-e-locazioni/">Affitti e Locazioni</a>
-										<a class="dropdown-item <?php echo (is_category(2767) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/arredamento-casa/">Arredamento casa</a>
-										<a class="dropdown-item <?php echo (is_category(2801) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/bonus-e-incentivi/">Bonus e Incentivi</a>
-										<a class="dropdown-item <?php echo (is_category(2799) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/case-a-1-euro/">Case ad 1 Euro</a>
+										<a class="dropdown-item <?php echo (is_category(2766) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/affitti-locazioni/">Affitti e Locazioni</a>
+										<a class="dropdown-item <?php echo (is_category(2767) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/arredamento/">Arredamento</a>
 										<a class="dropdown-item <?php echo (is_category(2727) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/compravendita-immobiliare/">Compravendita immobiliare</a>
-										<a class="dropdown-item <?php echo (is_category(2800) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/comuni-di-italia/">Comuni d'Italia</a>
-										<a class="dropdown-item <?php echo (is_category(19) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/edilizia-e-costruzioni/">Edilizia e Costruzioni</a>
-										<a class="dropdown-item <?php echo (is_category(13) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/fisco-imposte-e-tasse/">Fisco, Imposte e Tasse</a>
+										<a class="dropdown-item <?php echo (is_category(19) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/edilizia-costruzioni/">Edilizia e costruzioni</a>
+										<a class="dropdown-item <?php echo (is_category(2801) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/incentivi-fisco/">Inventivi e fisco</a>
 										<a class="dropdown-item <?php echo (is_category(10) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/mercato-immobiliare/">Mercato immobiliare</a>
-										<a class="dropdown-item <?php echo (is_category(2798) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/mutui-e-finanziamenti/">Mutui e Finanzamenti</a>
-										<a class="dropdown-item <?php echo (is_category(18) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/news-immobili-ovunque/">News</a>
+										<a class="dropdown-item <?php echo (is_category(2798) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/mutui-finanziamenti/">Mutui e Finanzamenti</a>
+										<a class="dropdown-item <?php echo (is_category(2800) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/regioni-comuni-italia/">Regioni e Comuni d'Italia</a>
 										
 									</div>
 								</li>
