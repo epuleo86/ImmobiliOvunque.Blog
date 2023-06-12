@@ -33,85 +33,34 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav ml-auto mx-auto">
 								<li class="nav-item">
-									<a class="nav-link" href="https://www.immobiliovunque.it/">Home</a>
-								</li>
-								
-								<li class="nav-item <?php echo (is_front_page() ? 'active' : '') ?>">
-									<a class="nav-link" href="https://www.immobiliovunque.it/blog/">Blog</a>
-								</li>
-								
-								<li class="nav-item dropdown <?php echo (is_category() ? 'active' : '') ?>">
-									<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Categorie
-									</a>
-									<div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item <?php echo (is_category(2766) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/affitti-locazioni/">Affitti e Locazioni</a>
-										<a class="dropdown-item <?php echo (is_category(2767) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/arredamento/">Arredamento</a>
-										<a class="dropdown-item <?php echo (is_category(2727) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/compravendita-immobiliare/">Compravendita immobiliare</a>
-										<a class="dropdown-item <?php echo (is_category(19) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/edilizia-costruzioni/">Edilizia e costruzioni</a>
-										<a class="dropdown-item <?php echo (is_category(2801) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/incentivi-fisco/">Inventivi e fisco</a>
-										<a class="dropdown-item <?php echo (is_category(10) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/mercato-immobiliare/">Mercato immobiliare</a>
-										<a class="dropdown-item <?php echo (is_category(2798) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/mutui-finanziamenti/">Mutui e Finanzamenti</a>
-										<a class="dropdown-item <?php echo (is_category(2800) ? 'active' : '') ?>" href="https://www.immobiliovunque.it/blog/regioni-comuni-italia/">Regioni e Comuni d'Italia</a>
-										
-									</div>
-								</li>
-								
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Case in vendita
-									</a>
-									<div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/roma" title="Case in vendita Roma">Roma</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/milano" title="Case in vendita Milano">Milano</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/firenze" title="Case in vendita Firenze">Firenze</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/genova" title="Case in vendita Genova">Genova</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/bologna" title="Case in vendita Bologna">Bologna</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/torino" title="Case in vendita Torino">Torino</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/napoli" title="Case in vendita Napoli">Napoli</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/bari" title="Case in vendita Bari">Bari</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti/palermo" title="Case in vendita Palermo">Palermo</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendita-appartamenti" title="Vendita appartamenti">Altre città</a>
-									</div>
-								</li>
-
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Case in affitto
-									</a>
-									<div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/roma" title="Case in affitto Roma">Roma</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/milano" title="Case in affitto Milano">Milano</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/torino" title="Case in affitto Torino">Torino</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/napoli" title="Case in affitto Napoli">Napoli</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/palermo" title="Case in affitto Palermo">Palermo</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/firenze" title="Case in affitto Firenze">Firenze</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/bologna" title="Case in affitto Bologna">Bologna</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/genova" title="Case in affitto Genova">Genova</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti/bari" title="Case in affitto Bari">Bari</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/affitto-appartamenti" title="Affitto appartamenti">Altre città</a>
-									</div>
+									<a class="nav-link" href="https://www.immobiliovunque.it/vendita-appartamenti">Vendita appartamenti</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link" href="https://www.immobiliovunque.it/agenti-immobiliari">Invia richiesta</a>
-								</li>
-
-								<li class="nav-item">
-									<a class="nav-link" href="https://www.immobiliovunque.it/calcola-rata-mutuo">Calcola mutuo</a>
+									<a class="nav-link" href="https://www.immobiliovunque.it/affitto-appartamenti">Affitto appartamenti</a>
 								</li>
 								
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Servizi
+								<li class="nav-item dropdown io-dropdown-menu">
+									<a class="nav-link dropdown-toggle" href="https://www.immobiliovunque.it/agenzie">
+										Agenzie
 									</a>
-									<div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+									<div class="dropdown-menu dropdown-menu-dark mt-0">
+										<a class="dropdown-item" href="https://www.immobiliovunque.it/formule-abbonamento">Formule abbonamento</a>
+										<a class="dropdown-item" href="https://myio.immobiliovunque.it/" rel="nofollow" target="_blank">Area riservata</a>
+									</div>
+								</li>
+																
+								<li class="nav-item dropdown io-dropdown-menu">
+									<a class="nav-link dropdown-toggle" href="#">
+										Servizi immobiliari
+									</a>
+									<div class="dropdown-menu dropdown-menu-dark mt-0">
+										<a class="dropdown-item" href="https://www.immobiliovunque.it/valutazione-immobiliare">Valuta casa</a>
+										<a class="dropdown-item" href="https://www.immobiliovunque.it/calcola-rata-mutuo">Calcola mutuo</a>
+										<a class="dropdown-item" href="https://www.immobiliovunque.it/agenti-immobiliari">Invia richiesta</a>
 										<a class="dropdown-item" href="https://www.immobiliovunque.it/permuta-casa">Permuta casa</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/valutazione-immobiliare">Valutazione immobiliare</a>
-										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendocasa">Vendi casa</a>
 										<a class="dropdown-item" href="https://www.immobiliovunque.it/segnalatore-immobiliare">Inizia a guadagnare</a>
+										<a class="dropdown-item" href="https://www.immobiliovunque.it/vendocasa">Vendi casa</a>
 									</div>
 								</li>
 							</ul>

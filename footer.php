@@ -44,10 +44,10 @@
 								<a class="text-white" href="https://www.immobiliovunque.it/">HOME</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
-								<a class="text-white" href="https://www.immobiliovunque.it/vendita-appartamenti">CASE IN VENDITA</a>
+								<a class="text-white" href="https://www.immobiliovunque.it/vendita-appartamenti">APPARTAMENTI IN VENDITA</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
-								<a class="text-white" href="https://www.immobiliovunque.it/affitto-appartamenti">CASE IN AFFITTO</a>
+								<a class="text-white" href="https://www.immobiliovunque.it/affitto-appartamenti">APPARTAMENTI IN AFFITTO</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
 								<a class="text-white" href="https://www.immobiliovunque.it/agenzie">AGENZIE IMMOBILIARI</a>
