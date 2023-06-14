@@ -814,3 +814,14 @@ a.expander-arrow{
     touch-action: auto;
     -webkit-overflow-scrolling: touch;
 }
+
+.wp-block-categories-list{
+	list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.cat-item, .wp-block-latest-posts__list li{
+	margin-top: 8px;
+}
