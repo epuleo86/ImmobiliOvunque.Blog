@@ -8,15 +8,13 @@
 	
 	<div class="col-12 mb-3">
 		<select class="custom-select" id="tipologia">
-			<optgroup label="Residenziali">
+			<optgroup label="Case e appartamenti">
+				<option value="case">Case e appartamenti</option>
 				<option value="appartamenti">Appartamenti</option>
 				<option value="attici">Attici e mansarde</option>
 				<option value="bilocali">Bilocali</option>
-				<option value="box-posti-auto">Box e Posti auto</option>
 				<option value="case-indipendenti">Case indipendenti</option>
-				<option value="loft">Loft</option>
 				<option value="monolocali">Monolocali</option>
-				<option value="palazzi">Palazzi</option>
 				<option value="quadrilocali">Quadrilocali</option>
 				<option value="rustici">Rustici</option>
 				<option value="trilocali">Trilocali</option>
@@ -24,19 +22,21 @@
 			</optgroup>
 
 			<optgroup label="Commerciali">
+				<option value="commerciali">Commerciali</option>
 				<option value="attivita-commerciali">Attività Commerciali</option>
-				<option value="bed-and-breakfast">Bed and Breakfast</option>
 				<option value="capannoni-industriali">Capannoni Industriali</option>
-				<option value="hotel">Hotel</option>
 				<option value="magazzini">Magazzini</option>
 				<option value="negozi">Negozi</option>
 				<option value="uffici">Uffici</option>
 			</optgroup>
 
 			<optgroup label="Terreni">
+				<option value="terreni">Terreni</option>
 				<option value="terreni-agricoli">Terreni Agricoli</option>
 				<option value="terreni-edificabili">Terreni Edificabili</option>
 			</optgroup>
+			
+			<option value="box-posti-auto">Box e Posti auto</option>
 		</select>
 	</div>
 	

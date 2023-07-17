@@ -106,8 +106,28 @@ jQuery(document).ready(function () {
 	
 	listingLinks();
 	ioInitAutocomplete();
-	(jQuery)('#btn-cerca').click(search);	
+	(jQuery)('#btn-cerca').click(search);
+	
+	(jQuery)('#contratto').change(setContratto);
 });
+
+function setContratto() {
+    if ((jQuery)('#contratto').val() == 'affitto') {
+        var optionCaseVacanza = (jQuery)("<option></option>");
+        optionCaseVacanza.val('case-vacanza');
+        optionCaseVacanza.text('Case vacanza');
+        (jQuery)('#tipologia optgroup[label="Case e appartamenti"] :nth-child(5)').after(optionCaseVacanza);
+
+        var optionStanze = (jQuery)("<option></option>");
+        optionStanze.val('stanze');
+        optionStanze.text('Stanze');
+        (jQuery)('#tipologia optgroup[label="Case e appartamenti"] :nth-child(11)').after(optionStanze);
+    }
+    else {
+        (jQuery)('#tipologia option[value="case-vacanza"]').remove();
+        (jQuery)('#tipologia option[value="stanze"]').remove();
+    }
+}
 
 function fireTrackings() {
     if (getCookie('.AspNet.Consent') != 'yes') {
