@@ -41,13 +41,10 @@
 					<div class="col-12 col-md-6 col-lg-2">
 						<ul class="list-unstyled">
 							<li>
-								<a class="text-white" href="https://www.immobiliovunque.it/">HOME</a>
+								<a class="text-white" href="https://www.immobiliovunque.it/">CASE IN VENDITA</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
-								<a class="text-white" href="https://www.immobiliovunque.it/vendita-appartamenti">APPARTAMENTI IN VENDITA</a>
-							</li>
-							<li class="mt-3 mt-lg-2">
-								<a class="text-white" href="https://www.immobiliovunque.it/affitto-appartamenti">APPARTAMENTI IN AFFITTO</a>
+								<a class="text-white" href="https://www.immobiliovunque.it/affitto-case">CASE IN AFFITTO</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
 								<a class="text-white" href="https://www.immobiliovunque.it/agenzie">AGENZIE IMMOBILIARI</a>
@@ -55,15 +52,15 @@
 							<li class="mt-3 mt-lg-2">
 								<a class="text-white" href="https://www.immobiliovunque.it/agenti-immobiliari">INVIA RICHIESTA</a>
 							</li>
+							<li class="mt-3 mt-lg-2">
+								<a class="text-white" href="https://www.immobiliovunque.it/calcola-rata-mutuo">CALCOLA MUTUO</a>
+							</li>
 						</ul>
 					</div>
 
 					<div class="col-12 col-md-6 col-lg-2">
 						<ul class="list-unstyled">
 							<li>
-								<a class="text-white" href="https://www.immobiliovunque.it/calcola-rata-mutuo">CALCOLA MUTUO</a>
-							</li>
-							<li class="mt-3 mt-lg-2">
 								<a class="text-white" href="https://www.immobiliovunque.it/valutazione-immobiliare">VALUTA CASA</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
@@ -75,7 +72,9 @@
 							<li class="mt-3 mt-lg-2">
 								<a class="text-white" href="https://www.immobiliovunque.it/segnalatore-immobiliare">INIZIA A GUADAGNARE</a>
 							</li>
-							
+							<li class="mt-3 mt-lg-2">
+								<a class="text-white" href="https://www.immobiliovunque.it/blog/">BLOG</a>
+							</li>
 						</ul>
 					</div>
 
@@ -85,16 +84,13 @@
 								<a class="text-white" href="https://www.immobiliovunque.it/chi-siamo">CHI SIAMO</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
-								<a class="text-white" href="https://www.immobiliovunque.it/chi-siamo#faq">FAQ</a>
+								<a class="text-white" href="https://www.immobiliovunque.it/faq">FAQ</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
-								<a class="text-white" href="https://www.immobiliovunque.it/chi-siamo#contatti">CONTATTI</a>
+								<a class="text-white" href="https://www.immobiliovunque.it/contatti">CONTATTI</a>
 							</li>
 							<li class="mt-3 mt-lg-2">
 								<a class="text-white" href="https://www.immobiliovunque.it/partners">PARTNERS</a>
-							</li>
-							<li class="mt-3 mt-lg-2">
-								<a class="text-white" href="https://www.immobiliovunque.it/blog/">BLOG</a>
 							</li>
 						</ul>
 					</div>
